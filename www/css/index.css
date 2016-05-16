@@ -1,5 +1,5 @@
 body {background-color: #ffffff !important; background-repeat: no-repeat;background-attachment: fixed;}
-.ui-content {padding-top: 45px !important;}
+.ui-content {padding-top: 0 !important;}
 .ui-page{background:transparent;}
 .ui-panel-wrapper{background:transparent;}
 nav ul {box-sizing: border-box;padding:0;width: 100%;float: left;}
@@ -110,7 +110,7 @@ margin-top: 5px;
 .ui-loader{z-index:999 !important;}
 .ui-loader .ui-bar{padding: 0 !important;}
 
-#home .ui-content {padding:0;padding-top: 45px !important;}
+#home .ui-content {padding:0;}
 #fader {/* background: url(http://clubmascodin.com/app/index_bg.jpg) no-repeat center top; background-size: 100%; */min-height: 300px;}
 
 #home .login_link {width: 100%; text-align: center;margin:20px 0 10px;display: inline-block;text-decoration: none; color: #333;font-weight: normal;}
