@@ -15,13 +15,6 @@
 </head>
 <body style="display: none;">
 <div data-role="page" id="home"> 
-  <div data-role="header" class="header" data-position="fixed"  data-theme="b"> 
-	<a href="index.html" class="ui-btn-right" id="clublogo"></a>
-    <h1>CLUB MASCODIN</h1> 
-    <a href="#panel" id="abre_panel" class="panel-btn"></a> 
-  </div> 
-   
-  
   <div data-role="content"> 
 	<iframe style="border:none;margin:0;display: none;" id="iframecontent" width="100%" height="100%" src=""></iframe>
   </div> 
@@ -42,7 +35,7 @@
 				$('body').fadeIn();
 				$.mobile.loading( "show", {text: "",textVisible: true,theme: "d",html: "<span class='ui-bar ui-overlay-c ui-corner-all'><img src='images/loading.gif' /></span>"});
 				$('#iframecontent').attr('src','http://clubmascodin.com/cacceso/');
-				height = $(window).height() - $('.ui-header').height();
+				height = $(window).height();
 				$('#iframecontent').height(height);
 			});
 			$('#iframecontent').load(function(){
