@@ -65,16 +65,16 @@
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
     
-  <gap:plugin name="Device" />
-    <gap:plugin name="Dialogs" />
-    <gap:plugin name="Inappbrowser" />
-    <gap:plugin name="Media" />
-    <gap:plugin name="MediaCapture" />
-    <gap:plugin name="NetworkInformation" />
-    <gap:plugin name="SplashScreen" />
-	<gap:plugin name="FileUtils" />
-	<gap:plugin name="FileTransfer" />
-	<gap:plugin name="PushPlugin" />
+  <gap:plugin name="org.apache.cordova.device.Device"></gap:plugin>
+    <gap:plugin name="org.apache.cordova.dialogs"></gap:plugin>
+    <gap:plugin name="org.apache.cordova.inappbrowser"></gap:plugin>
+    <gap:plugin name="org.apache.cordova.media"></gap:plugin>
+    <gap:plugin name="org.apache.cordova.media-capture"></gap:plugin>
+    <gap:plugin name="org.apache.cordova.network-information"></gap:plugin>
+    <gap:plugin name="org.apache.cordova.splashscreen"></gap:plugin>
+	<gap:plugin name="com.phonegap.plugins.pushplugin"></gap:plugin>
+	<gap:plugin name="org.apache.cordova.FileUtils"></gap:plugin>
+	<gap:plugin name="org.apache.cordova.FileTransfer"></gap:plugin>
 
     <gap:platform name="android"/>
     <preference name="splash-screen-duration" value="1000"/></widget>
