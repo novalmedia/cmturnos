@@ -66,15 +66,15 @@
     -->
     
   <gap:plugin name="Device" value="org.apache.cordova.device" source="npm"></gap:plugin>
-    <gap:plugin name="Dialogs" value="org.apache.cordova.dialogs"></gap:plugin>
-    <gap:plugin name="Inappbrowser" value="org.apache.cordova.inappbrowser"></gap:plugin>
-    <gap:plugin name="Media" value="org.apache.cordova.media"></gap:plugin>
-    <gap:plugin name="MediaCapture" value="org.apache.cordova.media-capture"></gap:plugin>
-    <gap:plugin name="NetworkInformation" value="org.apache.cordova.network-information"></gap:plugin>
-    <gap:plugin name="SplashScreen" value="org.apache.cordova.splashscreen"></gap:plugin>
-	<gap:plugin name="FileUtils" value="org.apache.cordova.FileUtils"></gap:plugin>
-	<gap:plugin name="FileTransfer" value="org.apache.cordova.FileTransfer"></gap:plugin>
-	<gap:plugin name="PushPlugin" value="com.phonegap.plugins.pushplugin"></gap:plugin>
+    <gap:plugin name="Dialogs" value="org.apache.cordova.dialogs" source="npm"></gap:plugin>
+    <gap:plugin name="Inappbrowser" value="org.apache.cordova.inappbrowser" source="npm"></gap:plugin>
+    <gap:plugin name="Media" value="org.apache.cordova.media" source="npm"></gap:plugin>
+    <gap:plugin name="MediaCapture" value="org.apache.cordova.media-capture" source="npm"></gap:plugin>
+    <gap:plugin name="NetworkInformation" value="org.apache.cordova.network-information" source="npm"></gap:plugin>
+    <gap:plugin name="SplashScreen" value="org.apache.cordova.splashscreen" source="npm"></gap:plugin>
+	<gap:plugin name="FileUtils" value="org.apache.cordova.FileUtils" source="npm"></gap:plugin>
+	<gap:plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" source="npm"></gap:plugin>
+	<gap:plugin name="PushPlugin" value="com.phonegap.plugins.pushplugin" source="npm"></gap:plugin>
 
     <gap:platform name="android"/>
     <preference name="splash-screen-duration" value="1000"/></widget>
