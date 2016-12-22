@@ -64,7 +64,7 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
-   <plugin name="org.apache.cordova.inappbrowser" spec="0.5.2" source="pgb" />
+   <plugin spec="https://github.com/apache/cordova-plugin-inappbrowser" />
       <gap:plugin name="cordova-plugin-inappbrowser"></gap:plugin>
     <gap:plugin name="org.apache.cordova.media"></gap:plugin>
     <gap:plugin name="org.apache.cordova.media-capture"></gap:plugin>
