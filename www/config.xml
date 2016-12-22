@@ -72,6 +72,8 @@
     <gap:plugin name="org.apache.cordova.media-capture"></gap:plugin>
     <gap:plugin name="org.apache.cordova.network-information"></gap:plugin>
     <gap:plugin name="org.apache.cordova.splashscreen"></gap:plugin>
+	<gap:plugin name="org.apache.cordova.FileUtils"></gap:plugin>
+	<gap:plugin name="org.apache.cordova.FileTransfer"></gap:plugin>
 	<gap:plugin name="com.phonegap.plugins.pushplugin"></gap:plugin>
 
     <gap:platform name="android"/>
